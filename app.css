@@ -1,38 +1,157 @@
-#banner{
-  background-image: url("https://i.imgur.com/SaHTM0B.jpg") ;
-  background-repeat: no-repeat;
-  background-color: black;
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.imgur.com/LdYmfOR.jpg") ;
+  background-size: cover;
   background-position: center;
-  height: 450px;
-  width:750px;
-  margin-top -0px;
-
+  height: 100%;
 }
 
-
-.square {
-  background: #ccc;
-  height: 100px;
-  width: 100px;
-  top: 100px;
-  left: 10px;
-  float: left;
-  text-align: center;
-  line-height: 100px;
-
-  
+a {
+  text-decoration: none;
 }
 
-.word{
+#bannerword {
+  height: 20%;
+  margin-top: 10%;
+  margin-left: 5%;
+  position: absolute;
+  padding: 2%;
+  width: 40%;
+}
+
+.bannertxt {
   color: white;
-  font-family: impact;
-  font-size: 150%;
+  font-size: 300%;
+  font-weight: bold;
+  letter-spacing: 3px;
+  word-spacing: 10px;
 }
 
+.bannersmalltxt {
+  color: white;
+  font-size: 170%;
+  word-spacing: 7px;
+}
+#linkplace {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 2%;
+}
 
-.word:hover {
-  color: #fc3a63;
+.linkref {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.searchref {
+  position: absolute;
+  top: 3%;
+  right: 0px;;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.linkref:hover {
+  color: gray;
   position: relative;
   top: 1px;
   left: 1px;
+}
+
+#introright {
+  background-color: #696969;
+  height: 40%;
+  width: 55%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#introtextpic {
+  background-image: url("https://i.imgur.com/xHjgfCK.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: left;
+  height: 100%;
+  width: 50%; 
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#introtext {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  position : absolute;
+  margin-top: 20%;
+  margin-left: 30%;
+}
+
+#intropic {
+  background-image: url("https://i.imgur.com/dSz7olK.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+  width:50%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+#introbuttom {
+  background-color: white;
+  position: absolute;
+  height: 7%;
+  width: 13%;
+  margin-left: 35%;
+  top: 60%;
+}
+
+.buttomleft {
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.buttomright {
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#introleft {
+  background-color: white;
+  height: 33%;
+  width: 45%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.square{  
+  background: white;
+  border-width: 3px;
+  border-color: #A9A9A9;
+  border-style: solid;
+  color: black;
+  float: left;
+  font-size: 200%;
+  font-weight:bold;
+  height: 65%;
+  position: relative;
+  padding: 3%;
+  margin: 6% 4% 4%;
+  width: 25%;
 }
