@@ -9,7 +9,7 @@
   </head>
 
   <body>
-  
+
       <div id="linkplace">
         <a href="" target="_blank" class="linkref">Home</a>
         <a href="" target="_blank" class="linkref">About Me</a>
@@ -19,11 +19,19 @@
       <a href=""><i class="large search icon searchref"></i></a>
 
       <div id="bannerword">
-        <p >
+        <p id="bannertxt1" style="display : block">
           <span class="bannertxt">Lighting & Studio<br/></span><br/>
           <span class="bannersmalltxt">Learing Passing Artist with Rajon Rondo <br/></span><br/>
-          <button class="ui button"><i class="play icon"></i>Watch Video</button>
         </p>
+        <p id="bannertxt2" style="display: none">          
+          <span class="bannertxt">Creative Programing<br/></span><br/>
+          <span class="bannersmalltxt">Have Fun with coding <br/></span><br/>
+        </p>
+        <p id="bannertxt3" style="display: none">
+          <span class="bannertxt">Wonderful Holiday<br/></span><br/>
+          <span class="bannersmalltxt">It's Time to Play!! <br/></span><br/>
+        </p>
+        <button id="videobutton" class="ui button"><i class="play icon"></i>Watch Video</button>
       </div>
 
       <div id="introleft">
@@ -31,19 +39,25 @@
           <p>
             Rajon</br>
             Rondo</br>
-            
+            <span class="introsmalltxt">3 lessons</span>
           </p>
         </div>
         <div id="square2" class="square">
           <p>
-            bule
+            Derrick</br>
+            Rose</br>
+            <span class="introsmalltxt">1 lesson</span>
           </p>
         </div>
         <div id="square3" class="square">
           <p>
-            green
+            Lonzo<br/>
+            Ball<br/>
+            <span class="introsmalltxt">12 lessons</span>
           </p>
         </div> 
+
+        <div id="squareswift"></div>
       </div>
 
       <div id="introbuttom"i>
@@ -53,17 +67,31 @@
 
 
       <div id="introright">
-        <div id="intropic"></div>
+        <div id="intropic">
+        </div>
+
         <div id="introtextpic">
-          <p id="introtext"> 
+          <p id="introtxt1"> 
             Hello!!</br>
             My name is Kyle.</br>
             Now, I'm just</br>
             a rookie.
           </p>
+
+          <p id="introtxt2" style="opacity: 0">
+            My favorite NBA star is<br/>
+            Derrick Rose!!
+          </p>
+
+          <p id ="introtxt3" style="opacity: 0">
+            I aslo like<br/>
+            Rajon Rondo
+          </p>
         </div>
       </div>
     
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./app.js" type="text/javascript"></script>
   </body>
 </html>

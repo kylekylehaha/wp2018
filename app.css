@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("https://i.imgur.com/LdYmfOR.jpg") ;
+  background-image: url("./web_pic/redbanner.jpg") ;
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -18,6 +18,12 @@ a {
   position: absolute;
   padding: 2%;
   width: 40%;
+}
+
+#bannertxt1, #bannertxt2, #bannertxt3 {
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
 .bannertxt {
@@ -84,27 +90,30 @@ a {
   right: 0px;
 }
 
-#introtext {
+#introtxt1, #introtxt2, #introtxt3 {
   color: white;
   font-size: 30px;
   font-weight: bold;
   position : absolute;
-  margin-top: 20%;
+  margin-top: 15%;
   margin-left: 30%;
 }
 
+
 #intropic {
-  background-image: url("https://i.imgur.com/dSz7olK.jpg");
+  blackground-image: url("./web_pic/redman.jpg");
   background-repeat: no-repeat;
   background-color: black;
-  background-position: center;
-  width:50%;
   height: 100%;
+  width: 50%;
   background-size: cover;
-  position: relative;
+  position: absolute;
   top: 0px;
   left: 0px;
+  float: left;
+  overflow: hidden;
 }
+
 
 #introbuttom {
   background-color: white;
@@ -116,7 +125,6 @@ a {
 }
 
 .buttomleft {
-  color: red;
   font-size: 30px;
   position: absolute;
   top: 50%;
@@ -124,7 +132,6 @@ a {
 }
 
 .buttomright {
-  color: red;
   font-size: 30px;
   position: absolute;
   top: 50%;
@@ -140,11 +147,18 @@ a {
   left: 0px;
 }
 
+#squareswift {
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  height: 65%;
+  position: absolute;
+  margin: 6% 4% 4%;
+  width: 25%;
+}
+
 .square{  
   background: white;
-  border-width: 3px;
-  border-color: #A9A9A9;
-  border-style: solid;
   color: black;
   float: left;
   font-size: 200%;
@@ -154,4 +168,15 @@ a {
   padding: 3%;
   margin: 6% 4% 4%;
   width: 25%;
+}
+
+.introsmalltxt {
+  color: #A9A9A9;
+  font-size: 105%;
+}
+
+.rotateX {
+  transform: rotateX(180deg);
+  font-size: 160%;
+  color: white;
 }
